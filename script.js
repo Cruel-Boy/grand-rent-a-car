@@ -321,7 +321,6 @@ const translations = {
     en: {
         nav_home: 'Home',
         nav_about: 'About Us',
-        nav_pricing: 'Pricing',
         nav_vehicles: 'Vehicles',
         nav_regions: 'Regions',
         nav_bonus: 'Bonus & Conveniences',
@@ -410,7 +409,6 @@ const translations = {
     ru: {
         nav_home: 'Главная',
         nav_about: 'О нас',
-        nav_pricing: 'Цены',
         nav_vehicles: 'Автопарк',
         nav_regions: 'Регионы',
         nav_bonus: 'Бонусы и удобства',
@@ -498,7 +496,6 @@ const translations = {
     uz: {
         nav_home: 'Bosh sahifa',
         nav_about: 'Biz haqimizda',
-        nav_pricing: 'Narxlar',
         nav_vehicles: 'Avtopark',
         nav_regions: 'Hududlar',
         hero_title_1: 'Grand Rent a Car',
@@ -697,4 +694,5 @@ function setText(selector, text) {
 
 function getCurrentLang() {
     return localStorage.getItem('lang') || 'en';
+
 }
