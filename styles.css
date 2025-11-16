@@ -891,7 +891,7 @@ body {
     float: right;
     z-index: 1000;
     right: 10px;
-    top: 80%;
+    top: 88%;
     position: fixed;
     color: #000000;
     background-color: var(--gold);
@@ -1128,4 +1128,5 @@ body {
         position: static;
         opacity: 1;
     }
+
 }
