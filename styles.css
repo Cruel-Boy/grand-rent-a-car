@@ -876,7 +876,7 @@ body {
 .convenience-item {
     max-width: calc(100% / 3);
     padding: 10px;
-    text-align: justify;
+    /* text-align: justify; */
     border-radius: 10px;
     background: linear-gradient(45deg, #207aa350, #ffffff1e);
 }
@@ -1145,6 +1145,7 @@ body {
     }
 
 }
+
 
 
 
