@@ -876,7 +876,7 @@ body {
 .convenience-item {
     max-width: calc(100% / 3);
     padding: 10px;
-    /* text-align: justify; */
+    text-align: justify;
     border-radius: 10px;
     background: linear-gradient(45deg, #207aa350, #ffffff1e);
 }
@@ -1038,10 +1038,15 @@ body {
     .conveniences-content , .conveniences-items {
         width: 100%;
     }
-    .convenience-item , .cashback-content .bonus-txt{
+    .cashback-content .bonus-txt{
         max-width: 100%;
         width: 360px;
         padding: 10px 20px;
+    }
+    .convenience-item {
+        max-width: 100%;
+        width: 360px;
+        padding: 5px;
     }
     .time-content , .cashback-content {
         margin: 0;
@@ -1145,6 +1150,7 @@ body {
     }
 
 }
+
 
 
 
