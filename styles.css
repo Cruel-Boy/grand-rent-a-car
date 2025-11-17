@@ -1021,6 +1021,7 @@ body {
     .social-links {    
         align-items: center;
         justify-content: center;
+        gap: 5px;
     }
     .region-item {
         width: 400px;
@@ -1135,3 +1136,4 @@ body {
     }
 
 }
+
