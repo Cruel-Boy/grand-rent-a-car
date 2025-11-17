@@ -704,6 +704,13 @@ body {
     color: var(--primary-blue);
 }
 
+.footer-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .social-links {
     align-items: center;
     justify-content: center;
@@ -1138,5 +1145,6 @@ body {
     }
 
 }
+
 
 
