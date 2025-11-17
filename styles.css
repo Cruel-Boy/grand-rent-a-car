@@ -705,6 +705,8 @@ body {
 }
 
 .social-links {
+    align-items: center;
+    justify-content: center;
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
@@ -1136,4 +1138,5 @@ body {
     }
 
 }
+
 
