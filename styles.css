@@ -1051,6 +1051,7 @@ body {
         max-width: 100%;
         width: 360px;
         padding: 5px;
+        text-align: center;
     }
     .time-content , .cashback-content {
         margin: 0;
@@ -1154,6 +1155,7 @@ body {
     }
 
 }
+
 
 
 
