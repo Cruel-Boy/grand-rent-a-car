@@ -969,6 +969,10 @@ body {
 }
 
 @media (max-width: 512px) {
+    .nav-container {
+        width: 100%;
+        padding: 0 5px;
+    }
     .container {
         padding: 0 15px;
     }
@@ -1150,6 +1154,7 @@ body {
     }
 
 }
+
 
 
 
