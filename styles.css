@@ -974,15 +974,16 @@ body {
         padding: 0 16px;
     }
     .lang-btn {
-    padding: 2px 4px;
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 200;
+        padding: 2px 4px;
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 200;
     }
     .lang-switcher {
-    display: flex;
-    gap: 6px;
-    margin-left: 0px;
+        display: flex;
+        gap: 6px;
+        margin-left: 0px;
+        margin: 0 5px;
     }
     .container {
         padding: 0 15px;
@@ -1166,6 +1167,7 @@ body {
     }
 
 }
+
 
 
 
