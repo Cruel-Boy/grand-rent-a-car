@@ -971,8 +971,14 @@ body {
 @media (max-width: 512px) {
     .nav-container {
         width: 100%;
-        padding: 0 5px;
+        padding: 0 10px;
     }
+    .lang-btn {
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 200;
+}
     .container {
         padding: 0 15px;
     }
@@ -1155,6 +1161,7 @@ body {
     }
 
 }
+
 
 
 
