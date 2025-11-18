@@ -978,7 +978,12 @@ body {
     border-radius: 6px;
     font-size: 12px;
     font-weight: 200;
-}
+    }
+    .lang-switcher {
+    display: flex;
+    gap: 6px;
+    margin-left: 0px;
+    }
     .container {
         padding: 0 15px;
     }
@@ -1161,6 +1166,7 @@ body {
     }
 
 }
+
 
 
 
