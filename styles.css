@@ -988,7 +988,10 @@ body {
     .container {
         padding: 0 15px;
     }
-
+    .slide-content {
+        width: 100%;
+        padding: 0 20px;
+    }
     .slide-content h1 {
         font-size: 2rem;
     }
@@ -1167,6 +1170,7 @@ body {
     }
 
 }
+
 
 
 
