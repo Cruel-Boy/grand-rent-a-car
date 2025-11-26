@@ -728,6 +728,10 @@ body {
     margin-top: 1rem;
 }
 
+.social-links img {
+    width: 110px;
+}
+
 .social-links a {
     display: flex;
     align-items: center;
@@ -1166,3 +1170,4 @@ body {
         opacity: 1;
     }
 }
+
