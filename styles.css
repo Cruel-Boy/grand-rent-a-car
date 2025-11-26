@@ -27,7 +27,6 @@ body {
     background: var(--midnight);
 }
 
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -672,6 +671,13 @@ body {
     padding: 60px 0 20px;
 }
 
+.footer-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -714,18 +720,11 @@ body {
     color: var(--primary-blue);
 }
 
-.footer-logo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .social-links {
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 1rem;
+    gap: 30px;
     margin-top: 1rem;
 }
 
@@ -886,7 +885,7 @@ body {
 .convenience-item {
     max-width: calc(100% / 3);
     padding: 10px;
-    text-align: justify;
+    text-align: center;
     border-radius: 10px;
     background: linear-gradient(45deg, #207aa350, #ffffff1e);
 }
@@ -981,27 +980,12 @@ body {
 @media (max-width: 512px) {
     .nav-container {
         width: 100%;
-        padding: 0 16px;
-    }
-    .lang-btn {
-        padding: 2px 4px;
-        border-radius: 6px;
-        font-size: 12px;
-        font-weight: 200;
-    }
-    .lang-switcher {
-        display: flex;
-        gap: 6px;
-        margin-left: 0px;
-        margin: 0 5px;
+        padding: 0 5px;
     }
     .container {
         padding: 0 15px;
     }
-    .slide-content {
-        width: 100%;
-        padding: 0 20px;
-    }
+
     .slide-content h1 {
         font-size: 2rem;
     }
@@ -1056,11 +1040,6 @@ body {
         align-items: center;
         justify-content: center;
     }
-    .social-links {    
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
-    }
     .region-item {
         width: 400px;
     }
@@ -1076,7 +1055,6 @@ body {
         max-width: 100%;
         width: 360px;
         padding: 5px;
-        text-align: center;
     }
     .time-content , .cashback-content {
         margin: 0;
@@ -1088,6 +1066,15 @@ body {
     }  
     .convenience-item p , .convenience-item h4 {
         font-size: 16px;
+    }
+    .social-links {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        gap: 80px;
+    }
+    .social-links img {
+        width: 150px;
     }
 }
 
@@ -1178,7 +1165,6 @@ body {
         position: static;
         opacity: 1;
     }
-
 }
 
 
