@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: all 0.4s ease-in-out;
+    font-family: "Ethnocentric", sans-serif;
 }
 
 html {
@@ -1170,6 +1171,7 @@ body {
     }
 
 }
+
 
 
 
