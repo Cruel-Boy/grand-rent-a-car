@@ -988,7 +988,7 @@ body {
         gap: 10px;
     }
     .nav-container h3 {
-        font-size: 14px; 
+        font-size: 16px; 
     }
     .container {
         padding: 0 15px;
@@ -1179,6 +1179,7 @@ body {
         opacity: 1;
     }
 }
+
 
 
 
