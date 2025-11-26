@@ -4,20 +4,29 @@
     padding: 0;
     box-sizing: border-box;
     transition: all 0.4s ease-in-out;
-    font-family: "Ethnocentric", sans-serif;
+    font-family: 'Eurostile BoldItalic', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'EurostileBoldItalic';
+    src: url('./src/Eurostile\ BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 body {
-    font-family: 'Inter', sans-serif;
     line-height: 1.6;
+    font-family: 'EurostileBoldItalic', sans-serif;
     color: var(--gray-50);
     overflow-x: hidden;
     background: var(--midnight);
 }
+
 
 .container {
     max-width: 1440px;
@@ -1171,6 +1180,7 @@ body {
     }
 
 }
+
 
 
 
